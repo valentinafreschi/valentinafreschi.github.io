@@ -36,11 +36,11 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover,
+/*a:hover,
 a:focus {
     text-decoration: none;
     color: #11505d;
-}
+}*/
 
 .light {
     font-weight: 400;
@@ -77,10 +77,10 @@ a:focus {
     color: #fff;
 }
 
-.navbar-custom .nav li.active {
+/*.navbar-custom .nav li.active {
     outline: none;
     background-color: rgba(255,255,255,.3);
-}
+}*/
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
@@ -88,12 +88,19 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
+.navbar-custom .nav li a:focus{
+  outline: 0;
+  background-color: #80cbb7;
+}
+
 .navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus,
+/*.navbar-custom .nav li a:focus,*/
 .navbar-custom .nav li a.active {
     outline: 0;
     background-color: rgba(255,255,255,.3);
 }
+
+
 
 .logo{
     width: 400px;
@@ -283,14 +290,14 @@ footer p {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    /*background: #fcfcfc;
+    background: rgba(255,255,255,.2);*/
 }
 
 ::selection {
     text-shadow: none;
-    background: #fcfcfc;
-    background: rgba(255,255,255,.2);
+    /*background: #fcfcfc;
+    background: rgba(255,255,255,.2);*/
 }
 
 img::selection {
